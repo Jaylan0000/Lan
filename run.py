@@ -5,9 +5,9 @@
 # @File   :run.py
 
 #执行文件  哪个文件夹下面的哪个文件调用哪个函数
-from wxl_auto.R_W_excel import read_data  #从wxl_atuo文件夹里的R_W_excel里导入read_data函数
-from wxl_auto.http_request import http_request
-from wxl_auto.R_W_excel import write_data
+from R_W_excel import read_data  #从wxl_atuo文件夹里的R_W_excel里导入read_data函数
+from http_request import http_request
+from R_W_excel import write_data
 
 Token = None #全局变量  初始值设置为None
 def run(file_name,sheet_name,c1,c2): #修改全局变量 行根据id走的  c1,c2写入结果和判断结果

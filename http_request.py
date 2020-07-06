@@ -3,6 +3,8 @@
 # @Author :feiou
 # @Email  :1006290526@qq.com
 # @File   :http_request.py
+
+#发送http请求
 import requests
 #注册 、登录、充值、提现为一个函数
 
