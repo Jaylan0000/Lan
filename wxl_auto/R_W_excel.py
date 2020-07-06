@@ -20,7 +20,7 @@ def read_data(file_name,sheet_name):
             case.append(sheet.cell(row=i+1,column=j).value)  #将获取到的每一行的数据添加到case[]列表中
             # print(sheet.cell(row=i+1,column=j).value)
         all_case.append(case)  #将获取到的所有的数据按行读取  添加到all_case列表中
-    return all_case  #注意缩进
+    return all_case  #注意缩进  返回all_case给run.py用
 
 def write_data(file_name,sheet_name,row,column,value):#此函数是写入到Excel中
     # 开始写入结果
